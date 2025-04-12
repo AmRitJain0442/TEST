@@ -1,7 +1,7 @@
 from fastapi import FastAPI  
 
 key=1234
-app = FastAPI()  
+app = FasAPI()  
 @app.get("/")  
 def read_root():
   return {"message": "Amrit here"} 
